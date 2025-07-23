@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Paróquia Sagrada Família</title>
+    <link rel="icon" type="image/png" href="favicon.png">
+    <link rel="stylesheet" href="index.css">
+    <script src="index.js" defer></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/lucide-static/font/Lucide.css" />
+</head>
+
+<body>
+    <nav class="navbar">
+        <div class="logo"><img src="psf.png" alt="Logo da Sagrada Família">
+        </div>
+
+        <ul class="nav-links">
+            <li><a href="index.html">Início</a></li>
+            <li><a href="#sobre">Sobre Nós</a></li>
+            <li><a href="pastorais.html">Pastorais</a></li>
+            <li><a href="#contato">Contato</a></li>
+        </ul>
+        <div class="cruz1"><svg width="50" height="80" viewBox="0 0 50 80" fill="none"
+                xmlns="http://www.w3.org/2000/svg">
+                <line y1="28.5" x2="50" y2="28.5" stroke="#7B1E3B" stroke-width="7" />
+                <line y1="28.5" x2="50" y2="28.5" stroke="black" stroke-opacity="0.2" stroke-width="7" />
+                <g filter="url(#filter0_dd_6_96)">
+                    <line x1="25.4149" y1="3" x2="25.4149" y2="75" stroke="#7B1E3B" stroke-width="7" />
+                    <line x1="25.4149" y1="3" x2="25.4149" y2="75" stroke="black" stroke-opacity="0.2"
+                        stroke-width="7" />
+                </g>
+                <defs>
+                    <filter id="filter0_dd_6_96" x="17.9149" y="0" width="15" height="80" filterUnits="userSpaceOnUse"
+                        color-interpolation-filters="sRGB">
+                        <feFlood flood-opacity="0" result="BackgroundImageFix" />
+                        <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"
+                            result="hardAlpha" />
+                        <feOffset dy="1" />
+                        <feGaussianBlur stdDeviation="1" />
+                        <feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.3 0" />
+                        <feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_6_96" />
+                        <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"
+                            result="hardAlpha" />
+                        <feMorphology radius="1" operator="dilate" in="SourceAlpha" result="effect2_dropShadow_6_96" />
+                        <feOffset dy="1" />
+                        <feGaussianBlur stdDeviation="1.5" />
+                        <feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.15 0" />
+                        <feBlend mode="normal" in2="effect1_dropShadow_6_96" result="effect2_dropShadow_6_96" />
+                        <feBlend mode="normal" in="SourceGraphic" in2="effect2_dropShadow_6_96" result="shape" />
+                    </filter>
+                </defs>
+            </svg>
+        </div>
+        <div class="menu-toggle" id="menu-toggle">&#9776;
+        </div>
+    </nav>
+
+    <section id="pastorais" class="sessao">
+        <h2 class="pastoral-titulo">Nossas Pastorais</h2>
+        <div class="pastoral-container">
+            <a href="#dizimo" class="card-link">
+                <div class="pastoral-card">
+                    <h3>Pastoral do Dízimo</h3>
+                    <p>Responsável por conscientizar a comunidade sobre a importância da contribuição financeira. Ensina
+                        a
+                        prática do dízimo como forma de partilha sustentável e apoio à manutenção da paróquia, serviços
+                        e
+                        projetos sociais .</p>
+                </div>
+            </a>
+            <a href="#catequese" class="card-link">
+                <div class="pastoral-card">
+                    <h3>Pastoral da Catequese</h3>
+                    <p>Responsável pela formação cristã de crianças, jovens e adultos, preparando-os para os sacramentos
+                        do
+                        Batismo, Eucaristia e Crisma. Atua com encontros, celebrações e apoio às famílias, e forma
+                        catequistas em parceria com a Escola Mater Ecclesiae da Arquidiocese do Rio de Janeiro.</p>
+                </div>
+            </a>
+            <a href="#coroinhas" class="card-link">
+                <div class="pastoral-card">
+                    <h3>Pastoral dos Coroinhas</h3>
+                    <p>É formada por crianças, adolescentes e jovens que, com dedicação e reverência, auxiliam o padre
+                        nas
+                        celebrações, cuidando do altar, das velas, do incenso e dos objetos litúrgicos. Além de
+                        contribuírem
+                        para a beleza da liturgia, desenvolvem disciplina, responsabilidade e aprofundam sua vivência
+                        cristã, sendo incentivados a descobrir e cultivar possíveis vocações.</p>
+                </div>
+            </a>
+            <a href="#ministros" class="card-link">
+                <div class="pastoral-card">
+                    <h3>Ministros da Eucaristía</h3>
+                    <p>Ministros Extraordinários da Sagrada Comunhão preparados e autorizados pela Arquidiocese, que
+                        auxiliam o padre na distribuição da Eucaristia e levam a Comunhão aos que não podem ir à missa.
+                        Com
+                        dedicação e reverência, garantem que todos os fiéis tenham acesso à Eucaristia, fortalecendo sua
+                        fé
+                        e união com Cristo.</p>
+                </div>
+            </a>
+            <a href="#batismo" class="card-link">
+                <div class="pastoral-card">
+                    <h3>Pastoral do Batismo</h3>
+                    <p>Cuidam da preparação das famílias para o sacramento do batismo promovendo encontros, orientações
+                        e
+                        celebrações da entrada na vida cristã. Atuam como ponto de contato para novos membros e orientam
+                        sobre a fé dos pequenos.</p>
+                </div>
+            </a>
+            <a href="#caridade" class="card-link">
+                <div class="pastoral-card">
+                    <h3>Pastoral da Caridade</h3>
+                    <p>A Pastoral da Caridade é uma das principais pastorais sociais da Arquidiocese, ligada ao
+                        Vicariato
+                        Episcopal da Caridade. Ela atua com famílias, população em situação de rua, idosos e pessoas com
+                        deficiência, buscando acolhimento, assistência e promoção humana na prática do amor de Cristo.
+                    </p>
+                </div>
+            </a>
+            <a href="#pascom" class="card-link">
+                <div class="pastoral-card">
+                    <h3>PASCOM</h3>
+                    <p>Estimula e prove os processos comunicativos das comunidades, suas pastorais e movimentos, além de
+                        divulgar e cobrir as ações paroquiais, estimulando todos a fazerem parte deste projeto de
+                        comunicação. Para isso, se insere em todos os meios de comunicação sociais disponíveis, como
+                        mídias
+                        sociais digitais, áudio visual e impressos, entre outros, para fazer chegar essa comunicação
+                        além
+                        dos muros da Igreja.</p>
+                </div>
+            </a>
+        </div>
+    </section>
+    <section id="explicacao-pastorais">
+        <!-- Pastoral 1: Imagem à esquerda, texto à direita -->
+        <div class="pastoral-info alinhamento-esquerda">
+            <img src="imagens/robo.jpg" alt="Equipe pastoral">
+            <div id="dizimo" class="pastoral-texto">
+                <h2>Pastoral do Dízimo</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ex ipsum, iaculis vitae nisi quis,
+                    maximus dapibus nibh. Nullam nisi magna, dictum eu metus vel, semper porta enim. Etiam molestie ac
+                    turpis in lobortis. Aenean velit lorem, dictum nec tortor sed, efficitur consectetur metus. Nulla
+                    sodales consectetur scelerisque. Nullam nulla elit, tincidunt ut libero ut, aliquam ornare nisi.
+                    Mauris tempus magna neque, vel tincidunt dui aliquam ac. Nullam sed mattis dolor.</p>
+            </div>
+        </div>
+        <div class="pastoral-info alinhamento-direita">
+            <img src="imagens/robo.jpg" alt="Equipe pastoral">
+            <div id="catequese" class="pastoral-texto">
+                <h2>Pastoral da Catequese</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ex ipsum, iaculis vitae nisi quis,
+                    maximus dapibus nibh. Nullam nisi magna, dictum eu metus vel, semper porta enim. Etiam molestie ac
+                    turpis in lobortis. Aenean velit lorem, dictum nec tortor sed, efficitur consectetur metus. Nulla
+                    sodales consectetur scelerisque. Nullam nulla elit, tincidunt ut libero ut, aliquam ornare nisi.
+                    Mauris tempus magna neque, vel tincidunt dui aliquam ac. Nullam sed mattis dolor.</p>
+            </div>
+
+        </div>
+        <div class="pastoral-info alinhamento-esquerda">
+            <img src="imagens/robo.jpg" alt="Equipe Pastoral da Caridade">
+            <div id="coroinhas" class="pastoral-texto">
+                <h2>Pastoral dos Coroinhas</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ex ipsum, iaculis vitae nisi quis,
+                    maximus dapibus nibh. Nullam nisi magna, dictum eu metus vel, semper porta enim. Etiam molestie ac
+                    turpis in lobortis. Aenean velit lorem, dictum nec tortor sed, efficitur consectetur metus. Nulla
+                    sodales consectetur scelerisque. Nullam nulla elit, tincidunt ut libero ut, aliquam ornare nisi.
+                    Mauris tempus magna neque, vel tincidunt dui aliquam ac. Nullam sed mattis dolor.</p>
+            </div>
+        </div>
+        <div class="pastoral-info alinhamento-direita">
+            <img src="imagens/robo.jpg" alt="Equipe Pastoral da Caridade">
+            <div id="ministros" class="pastoral-texto">
+                <h2>Ministros da Eucaristía</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ex ipsum, iaculis vitae nisi quis,
+                    maximus dapibus nibh. Nullam nisi magna, dictum eu metus vel, semper porta enim. Etiam molestie ac
+                    turpis in lobortis. Aenean velit lorem, dictum nec tortor sed, efficitur consectetur metus. Nulla
+                    sodales consectetur scelerisque. Nullam nulla elit, tincidunt ut libero ut, aliquam ornare nisi.
+                    Mauris tempus magna neque, vel tincidunt dui aliquam ac. Nullam sed mattis dolor.</p>
+            </div>
+        </div>
+        <div class="pastoral-info alinhamento-esquerda">
+            <img src="imagens/robo.jpg" alt="Equipe Pastoral da Caridade">
+            <div id="batismo" class="pastoral-texto">
+                <h2>Pastoral do Batismo</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ex ipsum, iaculis vitae nisi quis,
+                    maximus dapibus nibh. Nullam nisi magna, dictum eu metus vel, semper porta enim. Etiam molestie ac
+                    turpis in lobortis. Aenean velit lorem, dictum nec tortor sed, efficitur consectetur metus. Nulla
+                    sodales consectetur scelerisque. Nullam nulla elit, tincidunt ut libero ut, aliquam ornare nisi.
+                    Mauris tempus magna neque, vel tincidunt dui aliquam ac. Nullam sed mattis dolor.</p>
+            </div>
+        </div>
+        <div class="pastoral-info alinhamento-direita">
+            <img src="imagens/robo.jpg" alt="Equipe Pastoral da Caridade">
+            <div id="caridade" class="pastoral-texto">
+                <h2>Pastoral da Caridade</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ex ipsum, iaculis vitae nisi quis,
+                    maximus dapibus nibh. Nullam nisi magna, dictum eu metus vel, semper porta enim. Etiam molestie ac
+                    turpis in lobortis. Aenean velit lorem, dictum nec tortor sed, efficitur consectetur metus. Nulla
+                    sodales consectetur scelerisque. Nullam nulla elit, tincidunt ut libero ut, aliquam ornare nisi.
+                    Mauris tempus magna neque, vel tincidunt dui aliquam ac. Nullam sed mattis dolor.</p>
+            </div>
+        </div>
+        <div class="pastoral-info alinhamento-esquerda">
+            <img src="imagens/robo.jpg" alt="Equipe Pastoral da Caridade">
+            <div id="pascom" class="pastoral-texto">
+                <h2>PASCOM</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ex ipsum, iaculis vitae nisi quis,
+                    maximus dapibus nibh. Nullam nisi magna, dictum eu metus vel, semper porta enim. Etiam molestie ac
+                    turpis in lobortis. Aenean velit lorem, dictum nec tortor sed, efficitur consectetur metus. Nulla
+                    sodales consectetur scelerisque. Nullam nulla elit, tincidunt ut libero ut, aliquam ornare nisi.
+                    Mauris tempus magna neque, vel tincidunt dui aliquam ac. Nullam sed mattis dolor.</p>
+            </div>
+        </div>
+
+        <!-- Vai repetindo pra todas as pastorais -->
+    </section>
+
+    </section>
+    <section id="contato">
+        <footer class="footer">
+            <div class="footer-container">
+                <div class="footer-left">
+                    <h3>Paróquia Sagrada Família</h3>
+                    <p>Rua do Livramento, 62/64 – Saúde, Rio de Janeiro – RJ</p>
+                    <p>Forania Centro · Arquidiocese do Rio de Janeiro</p>
+                </div>
+                <div class="footer-right">
+                    <p>Siga nossas redes:</p>
+                    <div class="social-icons">
+                        <a
+                            href="https://www.instagram.com/sagradafamiliasaude?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                                fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                stroke-linejoin="round" class="lucide lucide-instagram-icon lucide-instagram">
+                                <rect width="20" height="20" x="2" y="2" rx="5" ry="5" />
+                                <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z" />
+                                <line x1="17.5" x2="17.51" y1="6.5" y2="6.5" />
+                            </svg></a>
+                        <a href="https://www.facebook.com/PSFSaudeRJ/"><svg xmlns="http://www.w3.org/2000/svg"
+                                width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                                class="lucide lucide-facebook-icon lucide-facebook">
+                                <path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z" />
+                            </svg></a>
+                        <a href="#"><i class="lucide lucide-mail"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Paróquia Sagrada Família. Todos os direitos reservados.</p>
+            </div>
+        </footer>
+    </section>
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            const toggle = document.getElementById('menu-toggle');
+            const navLinks = document.querySelector('.nav-links');
+
+            toggle.addEventListener('click', function () {
+                navLinks.classList.toggle('active');
+            });
+        });
+    </script>
+
+</body>
+
+</html>
